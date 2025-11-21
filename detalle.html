@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Producto</title>
+    <link rel="stylesheet" href="estilos.css"> 
+    <style>
+        /* Estilos específicos para la página de detalle */
+        .detalle-container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 30px;
+        }
+        .detalle-img {
+            flex: 1;
+        }
+        .detalle-img img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .detalle-info {
+            flex: 2;
+        }
+        .detalle-info h1 {
+            color: #007bff;
+            font-size: 2.5em;
+            margin-top: 0;
+        }
+        .detalle-precio {
+            font-size: 2em;
+            color: #28a745;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .btn-compra-final {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #ffc107;
+            color: #333;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.2em;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .btn-compra-final:hover {
+            background-color: #e0a800;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="catalogo.html" style="color: white; text-decoration: none; margin-right: 20px;">
+            ⬅️ Volver al Catálogo
+        </a>
+    </header>
+
+    <div class="detalle-container" id="detalle-producto">
+        <h2>Cargando...</h2>
+    </div>
+
+    <script src="script-detalle.js"></script>
+</body>
+</html>
